@@ -1,0 +1,40 @@
+{
+  "name": "xiedaimala",
+  "version": "1.1.0",
+  "description": "xiedaimala.com upload video",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jirengu/xiedaimala-upload.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jirengu/xiedaimala-upload/issues"
+  },
+  "homepage": "https://github.com/jirengu/xiedaimala-upload#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "axios": "^0.17.1",
+    "bash-color": "^0.0.4",
+    "colors": "^1.1.2",
+    "commander": "^2.11.0",
+    "filename-regex": "^2.0.1",
+    "get-stdin": "^5.0.1",
+    "lodash": "^4.17.4",
+    "node-persist": "^2.1.0",
+    "ora": "^1.3.0",
+    "prompt-base": "^5.0.0",
+    "prompt-password": "^1.2.0",
+    "qiniu": "^7.1.1",
+    "table": "^4.0.2"
+  },
+  "bin": {
+    "xiedaimala": "bin/xiedaimala.js",
+    "xdml": "bin/xiedaimala.js"
+  }
+}
